@@ -6,4 +6,4 @@ categories: tech
 featured_image: /images/sr-background.gif
 ---
 
-
+This is a test post
