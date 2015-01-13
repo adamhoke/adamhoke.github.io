@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First Test
-date: {}
+date: 2014-01-12 20:00:00
 categories: tech
 featured_image: "/images/sr-background.gif"
 published: true
@@ -9,6 +9,6 @@ published: true
 
 ## This is a test post
 
-###I'm testing posting with prose.io
+###I will never use prose.io ever again
 
 __Lets see if this works...__
