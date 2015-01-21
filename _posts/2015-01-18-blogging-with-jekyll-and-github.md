@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Blogging with Jekyll and Github
-date: 2014-01-18 19:00:00
+date: 2015-01-18 19:00:00
 categories: tech
 featured_image: "/images/posts/1/bg.png"
 published: true
+comments: true
 ---
 
 ##Blogging with github.io, Jekyll, and your own domain name
