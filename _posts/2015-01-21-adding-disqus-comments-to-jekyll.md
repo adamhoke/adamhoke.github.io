@@ -57,7 +57,7 @@ Important: wrap the 'if' and 'endif' statements in bracket-percent.
 You'll see what I'm talking about in the post template file, I just can't paste it here because it won't render.
 The code here is part of the [liquid templating engine](http://liquidmarkup.org/ "The Liquid Templating Engine"), which Jekyll uses.
 
-**Conclusion**  
+**Conclusion**
 
 Disqus is a great commenting plugin if you want a simple solution for your blog.
 You can also change the options in your commenting plugin on disqus.com.

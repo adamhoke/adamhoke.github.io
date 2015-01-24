@@ -7,3 +7,4 @@ sidebar_image: /images/bg/horror-bg.jpg
 markdown: redcarpet
 highlighter: pygments
 baseurl: # the subpath of your site, e.g. /blog/
+gems: [jekyll-sitemap]
