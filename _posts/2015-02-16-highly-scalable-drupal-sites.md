@@ -13,7 +13,7 @@ comments: true
 
 **What does it mean to be 'Highly Availablity'?**
 
-Any highly availability website,
+Any high availability website,
 not just a Drupal site,
 will excel in the following four areas:
 
