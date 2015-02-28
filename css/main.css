@@ -366,7 +366,12 @@ ul.posts p {
 	font-size: 10px;
 	display: block;
 }
+
 .container em {
 	text-decoration: underline;
 	font-weight: bold;
+}
+
+.container .highlight {
+	margin: 0 0 21px 0;
 }
