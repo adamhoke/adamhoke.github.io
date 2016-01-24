@@ -1,5 +1,10 @@
-Jekyll Clean Dark
-============
+---
+layout: page 
+title: About
+
+---
+
+### Dark version of jekyll-clean theme
 
 This theme was created on top of Jekyll Clean theme by Scotte, you can view the originnal version in action [on his blog](https://scotte.github.io).
 
@@ -13,11 +18,11 @@ sidebar.
 Optionally you can use:
 
  - [Disqus](http://disqus.com) as a comments system;
- - [Google Analytics](http://www.google.com/analytics/);
+ - [Google Analyticse](http://www.google.com/analytics/);
  - [Yandex Metrika](http://metrica.yandex.com);
  - Blog tags.
 
-All these features could be set up in `_config.yml`. Also you can have social icons which could lead to your social acounts. It uses font-awesome, so you can have any icon you want to any social profile. Out-of-the box it has: LinkedIn, GitHub, StackOverflow, LastFm, Instagram. And you can easily add more by adding new style in `theme.css` and setting it in `_config.yml`.
+All these features could be set up in `_config.yml`. Also you can have social icons which could lead to your social acounts. Out-of-the box it has: LinkedIn, GitHub, StackOverflow, LastFm, Instagram. You can easily add more by putting svg images in a /css/social folder.
 
 Installation
 ==
@@ -33,10 +38,10 @@ License
 The content of this theme is distributed and licensed under a
 [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode)
 
-    This license lets others distribute, remix, tweak, and build upon your work,
-    even commercially, as long as they credit you for the original creation. This
-    is the most accommodating of licenses offered. Recommended for maximum
-    dissemination and use of licensed materials.
+>This license lets others distribute, remix, tweak, and build upon your work,
+>even commercially, as long as they credit you for the original creation. This
+>is the most accommodating of licenses offered. Recommended for maximum
+>dissemination and use of licensed materials.
 
 In other words: you can do anything you want with this theme on any site, just please
 provide a link to the original theme on github.
