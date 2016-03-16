@@ -6,6 +6,8 @@ categories: tech
 featured_image: "/images/posts/3/bg.png"
 published: true
 comments: true
+tags:
+- analytics
 ---
 
 ##Using Google Webmaster tools to add a sitemap to your Jekyll blog

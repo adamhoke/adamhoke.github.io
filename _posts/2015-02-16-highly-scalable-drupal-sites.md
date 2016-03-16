@@ -6,6 +6,9 @@ categories: tech
 featured_image: "/images/posts/6/bg.png"
 published: true
 comments: true
+tags:
+- Drupal
+- stability
 ---
 
 ##Tips for Creating a High Availablity Drupal Site

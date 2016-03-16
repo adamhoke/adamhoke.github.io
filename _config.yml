@@ -1,37 +1,39 @@
-# Jekyll configuration
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-name: Adam Hoke
-description: Software Developer
+# Site settings
+title: Adam Hoke
+email: email@adamhoke.com
+description: > # this means to ignore newlines until "baseurl:"
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://adamhoke.com" # the base hostname & protocol for your site
+twitter_username: adamhoke
+github_username:  adamhoke
 
-# Url is currently only used only for the RSS feed in feed.xml
-url: http://adamhoke.com
-#url: http://localhost:4000
 
-# For a project page here should be a project name. Otherwise (for user's/organizaion's page leave it empty)
-baseurl: 
+# Gems
+gems: 
+- jekyll-archives
+- jekyll-paginate
 
-social:
-  github: adamhoke
-  stackoverflow: 'adamhoke'
-  linkedin:
-  twitter: 'adamhoke'
-  rss: feed.xml
-
-# Google Analytics key, leave blank to ignore
-google_analytics_key:
-
-disqus: adamhoke
-comments: true
-
-permalink: /:year/:month/:title
-
-# Enable for using pages, more details are here: http://jekyllrb.com/docs/pagination/
-#paginate: 3
-
-highlighter: pygments
-
+# Config
+paginate: 5
+paginate_path: "page/:num"
+# Build settings
 markdown: kramdown
-kramdown:
-  input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
 
-exclude: ['README.md', 'LICENSE']
+# Archive
+jekyll-archives:
+  enabled: []
+  layout: 'archive'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'

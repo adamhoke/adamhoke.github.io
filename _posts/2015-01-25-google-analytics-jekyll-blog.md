@@ -6,6 +6,8 @@ categories: tech
 featured_image: "/images/posts/4/bg.png"
 published: true
 comments: true
+tags:
+- analytics
 ---
 
 ##Adding Google Analytics to a Jekyll blog for visitor tracking

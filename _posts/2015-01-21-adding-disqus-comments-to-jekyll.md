@@ -6,6 +6,8 @@ categories: tech
 featured_image: "/images/posts/2/bg.png"
 published: true
 comments: true
+tags:
+- analytics
 ---
 
 ##Disqus: an easy way to add comments to your Jekyll blog

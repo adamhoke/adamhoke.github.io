@@ -6,6 +6,9 @@ categories: security
 featured_image: "/images/posts/7/bg.png"
 published: true
 comments: true
+tags:
+- Drupal
+- security
 ---
 
 ##Tips for making your Drupal site more secure

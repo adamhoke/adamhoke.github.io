@@ -6,6 +6,8 @@ categories: tech
 featured_image: "/images/posts/1/bg.png"
 published: true
 comments: true
+tags:
+- analytics
 ---
 
 ##Blogging with github.io, Jekyll, and your own domain name

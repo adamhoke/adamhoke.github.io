@@ -6,6 +6,10 @@ categories: tech
 featured_image: "/images/posts/5/bg.png"
 published: true
 comments: true
+tags:
+- Linux
+- virtualization
+- nodejs
 ---
 
 ##Creating a Centos Vagrant box with a NodeJS server, Part 1
