@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: blog
 title: Jekyll Sitemaps
 date: 2015-01-24 17:30:00
 categories: tech
-featured_image: "/images/posts/3/bg.png"
+image: "/images/posts/3/bg.png"
+category: blog
 published: true
 comments: true
 tags:

@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: blog
 title: Blogging with Jekyll and Github
 date: 2015-01-18 19:00:00
 categories: tech
-featured_image: "/images/posts/1/bg.png"
+category: blog
+image: "/images/posts/1/bg.png"
 published: true
 comments: true
 tags:

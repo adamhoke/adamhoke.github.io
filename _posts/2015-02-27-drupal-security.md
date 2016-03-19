@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: blog
 title: Drupal Security
 date: 2015-02-27 22:00:00
 categories: security
-featured_image: "/images/posts/7/bg.png"
+image: "/images/posts/7/bg.png"
+category: blog
 published: true
 comments: true
 tags:

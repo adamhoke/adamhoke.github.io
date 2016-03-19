@@ -1,39 +1,14 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-title: Adam Hoke
-email: email@adamhoke.com
-description: > # this means to ignore newlines until "baseurl:"
-  
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://adamhoke.com" # the base hostname & protocol for your site
-twitter_username: adamhoke
-github_username:  adamhoke
-
-
-# Gems
-gems: 
-- jekyll-archives
-- jekyll-paginate
-
-# Config
-paginate: 5
-paginate_path: "page/:num"
-# Build settings
-markdown: kramdown
-
-# Archive
-jekyll-archives:
-  enabled: []
-  layout: 'archive'
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
+permalink: /:categories/:title.html
+url: "http://adamhoke.com"
+full_name: "Adam Hoke"
+first_name: "Adam"
+last_name: "Hoke"
+blog_title: "Adam Hoke "
+author_img_name_path: "/images/users/user.jpg"
+disqus_shortname: "adamhoke"
+copyright_year: "2015-2016"
+google_analytics_code: ""
+aboutme: "Software and Web Developer"
+twitter: "adamhoke"
+github: "adamhoke"
+linkedin_url: "https://www.linkedin.com/in/adamhoke"

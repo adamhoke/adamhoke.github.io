@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: blog
 title: Adding Disqus comments to your blog
 date: 2015-01-21 19:00:00
 categories: tech
-featured_image: "/images/posts/2/bg.png"
+image: "/images/posts/2/bg.png"
+category: blog
 published: true
 comments: true
 tags:

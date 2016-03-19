@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: blog
 title: Google Analytics on a Jekyll Blog
 date: 2015-01-26 17:30:00
 categories: tech
-featured_image: "/images/posts/4/bg.png"
+image: "/images/posts/4/bg.png"
+category: blog
 published: true
 comments: true
 tags:

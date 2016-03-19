@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: blog
 title: Drupal High Availability
 date: 2015-02-17 12:03:00
 categories: tech
-featured_image: "/images/posts/6/bg.png"
+image: "/images/posts/6/bg.png"
+category: blog
 published: true
 comments: true
 tags:
