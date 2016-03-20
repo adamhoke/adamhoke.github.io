@@ -12,7 +12,7 @@ tags:
 - security
 ---
 
-##HTTPS and SSL explained in detail, what they are and how they work together.
+*HTTPS and SSL explained in detail, what they are and how they work together.*
 
 
 <br />
