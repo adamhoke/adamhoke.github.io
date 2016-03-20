@@ -20,18 +20,18 @@ tags:
 
 If you look at a web URL in your browser bar the first part of the address is the protocol.
 You're probably looking at http://.
-http is unencrypted, meaning all the data flowing from your browser (client) to the web site (server) can be read if someone were listening to your web traffic using packet anlyzer software
-In the case of ecommerce transactions and other sensitive data such as login you'll want to make sure you're using https://.
-In fact, https:// was initially devised for the use of online payments. It uses a technology called tls/ssl (transport layer security / secure sockets layer).
-TLS is widely used today as SSL is mostly deprecated. But people write them together or often refer to the certificate you need to place on a webserver as a "SSL Certificate"
-SSL Certificates are what's used to encrypt the traffic help ensure that an encrypted https connection is connecting to a trustworthy source.
+http is unencrypted, meaning all the data flowing from your browser (client) to the web site (server) can be read if someone were listening to your web traffic using packet analyzer software
+In the case of eCommerce transactions and other sensitive data such as login you'll want to make sure you're using HTTPS://.
+In fact, HTTPS:// was initially devised for the use of online payments. It uses a technology called tls/ssl (transport layer security / secure sockets layer).
+TLS is widely used today as SSL is mostly deprecated. But people write them together or often refer to the certificate you need to place on a web server as a "SSL Certificate"
+SSL Certificates are what's used to encrypt the traffic help ensure that an encrypted HTTPS connection is connecting to a trustworthy source.
 
 
 <br />
 **SSL Certificate**
 
 An SSL certificate validates the connection is trustworthy. It is part of a system called PKI, or public Key Encryption and uses a standard for digitally signing certificates called X509
-An SSL cerificate is created by a user generating a public and private key pair, generating a "cerified signing request" file and submitting it to a cerificate authority.
+An SSL certificate is created by a user generating a public and private key pair, generating a "certified signing request" file and submitting it to a certificate authority.
 These certificates are usually leased for a yearly fee from the commercial CA.
 For development purposes you can also issue self-signed certificates to yourself using tools like OpenDNS.
 
@@ -39,10 +39,10 @@ For development purposes you can also issue self-signed certificates to yourself
 <br />
 **Certificate Authorities**
 
-A cerificate Authority is a trusted entity that is a 3rd party both the end user and the web site should trust.
-Most of the time, in the commecrial web space, certificate authorities are large multinational tech companies like Verisign, Godaddy, or Commodo.
-People usually subit their csr (certificate signing request) to a large CA and are given a SSL certificate.
-The certificates websites recieve are whats called subordinate certificates. They are generated from root certificates which are self signed by CAs.
+A certificate Authority is a trusted entity that is a 3rd party both the end user and the web site should trust.
+Most of the time, in the commercial web space, certificate authorities are large multinational tech companies like Verisign, Godaddy, or Commodo.
+People usually submit their csr (certificate signing request) to a large CA and are given a SSL certificate.
+The certificates websites receive are whats called subordinate certificates. They are generated from root certificates which are self signed by CAs.
 The root certificates from these CAs come pre-installed in popular web browsers, which maintain a list of the most well-known CAs
 Because of this, SSL certificates properly signed from a trusted CA are automatically accepted when visiting a site using them
 This is part of certificate tree, which is referred to as a "chain of trust"
@@ -54,7 +54,7 @@ There are a few different types of certificates a CA can issue, each with increa
 The three most common are
  - Domain validation: CA verifies the domain contact info matches the CSR
  - Organization validation: domain validation plus vetting of the registered organization requesting the certificate
- - Extended Validation: domain validation, organization validation, plus thoughough vetting done manually by a human resource on the organization and its trustworthyness.
+ - Extended Validation: domain validation, organization validation, plus thorough vetting done manually by a human resource on the organization and its trustworthiness.
 
 
 <br />
@@ -87,12 +87,12 @@ at a later date, and I will link it back to here.
 
 
 <br />
-**Installing the Certificate and running https on your server**
+**Installing the Certificate and running HTTPS on your server**
 
-Now it's time to use the certificates you've created to. I'll use the simplest possible examble, a Node JS server:
+Now it's time to use the certificates you've created to. I'll use the simplest possible example, a Node JS server:
 
 ```    
-var https = require('https');
+var HTTPS = require('HTTPS');
 var fs = require('fs');
 
 var myKey = fs.readFileSync('mydomain.key');
@@ -103,9 +103,9 @@ var options = {
     cert: myCert
 };
 
-https.createServer(options, function (req, res) {
+HTTPS.createServer(options, function (req, res) {
     res.writeHead(200);
-    res.end("https works");
+    res.end("HTTPS works");
 }).listen(8000);
 ```
 
@@ -124,7 +124,7 @@ Heres an example of using that same server through apache:
 </Location>
 ```     
      
-And your apache ssl config file:
+And your Apache ssl config file:
 
 ```     
 LoadModule ssl_module modules/mod_ssl.so
@@ -142,13 +142,13 @@ Listen 443
 **Putting It All Together**
 
 Now lets take a step back and look at whats happening under the hood:
-First a user requests a secure page over the https protocol. When this happens the webserver sends back its public key and its (SSL) certificate. The browser checks to see if the certificate is issued by a trusted CA (either a vendor or internal CA).
+First a user requests a secure page over the HTTPS protocol. When this happens the web server sends back its public key and its (SSL) certificate. The browser checks to see if the certificate is issued by a trusted CA (either a vendor or internal CA).
 The web browser then uses the public key to create and encrypt a random symmetric encryption key and sends it to the web server with encrypted http(s) data.
-The web server decrypts the symmetric encryption key using its own private key and uses the nexly decrypted symmetric key to decrypt the encrypted data, which also includes the encrypted URL
-The web server sends back the requested data, in the form of an html document, and http data encrypted with the newly decrypted symmetric key.
-The web browser decrypts the http(s) data and html document using the original symmetric key and displays the information.
+The web server decrypts the symmetric encryption key using its own private key and uses the newly decrypted symmetric key to decrypt the encrypted data, which also includes the encrypted URL
+The web server sends back the requested data, in the form of an HTML document, and http data encrypted with the newly decrypted symmetric key.
+The web browser decrypts the http(s) data and HTML document using the original symmetric key and displays the information.
   
 <br />
 **Wrapping up**
 
-This post does not descript the concepts of encryption/decryption nor what it means to be randomly symmetric. It should be clear to you why you need an SSL certificate if you need to secure data on your webserver. If you can graps the concepts here you can understand how to setup https for your webserver with your own research for your choice of server and application.
+This post does not description the concepts of encryption/decryption nor what it means to be randomly symmetric. It should be clear to you why you need an SSL certificate if you need to secure data on your web server. If you can grasp the concepts here you can understand how to setup HTTPS for your web server with your own research for your choice of server and application.
