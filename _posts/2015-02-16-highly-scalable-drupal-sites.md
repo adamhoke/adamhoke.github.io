@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Drupal High Availability
 date: 2015-02-17 12:03:00
 categories: tech

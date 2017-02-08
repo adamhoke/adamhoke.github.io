@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Google Analytics on a Jekyll Blog
 date: 2015-01-26 17:30:00
 categories: tech

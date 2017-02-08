@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Creating a CentOS Vagrant Box with a NodeJS Server
 date: 2015-02-06 17:30:00
 categories: tech

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Jekyll Sitemaps
 date: 2015-01-24 17:30:00
 categories: tech

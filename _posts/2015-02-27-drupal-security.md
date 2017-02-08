@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Drupal Security
 date: 2015-02-27 22:00:00
 categories: security

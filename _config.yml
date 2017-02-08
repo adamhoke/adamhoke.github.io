@@ -1,14 +1,52 @@
-permalink: /:categories/:title.html
+title: Adam Hoke
+description: IT, web, software, and security blog
+author: Adam Hoke
+github: https://github.com/adamhoke
+about: I am a programmer and web developer. Currently working on cloud-base web applications.
+disqus_shortname: adamhoke
+google_analytics: UA-XXXXXXXX-Y
+avatar_url:
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-twitter
+      link: "https://twitter.com/adamhoke"
+    - icon: fa-linkedin
+      link: "https://www.linkedin.com/in/adamhoke"
+    - icon: fa-stack-exchange
+      link: "#"
+    - icon: fa-github
+      link: "https://github.com/adamhoke"
+
+share:
+  twitter_username: adamhoke
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: My Projects
+      url: /projects/
+    - text: XML Feed
+      url: /feed.xml
+
 url: "http://adamhoke.com"
-full_name: "Adam Hoke"
-first_name: "Adam"
-last_name: "Hoke"
-blog_title: "Adam Hoke "
-author_img_name_path: "/images/users/user.jpg"
-disqus_shortname: "adamhoke"
-copyright_year: "2015-2016"
-google_analytics_code: ""
-aboutme: "Software and Web Developer"
-twitter: "adamhoke"
-github: "adamhoke"
-linkedin_url: "https://www.linkedin.com/in/adamhoke"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all

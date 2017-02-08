@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Adding Disqus comments to your blog
 date: 2015-01-21 19:00:00
 categories: tech

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Blogging with Jekyll and Github
 date: 2015-01-18 19:00:00
 categories: tech

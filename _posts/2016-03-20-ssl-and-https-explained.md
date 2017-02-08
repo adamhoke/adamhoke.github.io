@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: HTTPS and SSL Certificates Explained
 date: 2016-03-19 22:00:00
 categories: hosting
