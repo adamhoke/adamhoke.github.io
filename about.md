@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I am freelance developer. Currently doing more in backend, focused in Python and Django.
+I am a programmer and web developer. Currently working on cloud-base web applications.
 
-email: agus[at]python.web.id
+email: email[at]adamhoke.com

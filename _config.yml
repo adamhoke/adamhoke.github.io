@@ -5,7 +5,7 @@ github: https://github.com/adamhoke
 about: I am a programmer and web developer. Currently working on cloud-base web applications.
 disqus_shortname: adamhoke
 google_analytics: UA-XXXXXXXX-Y
-avatar_url:
+avatar_url: /static/img/logo.png
 
 enableTags: true
 tagarray: []

@@ -1,10 +1,10 @@
 body {
-  font-family: "Roboto Condensed", Arial, sans-serif;
-  background: url("/static/img/subtle_dots.png");
+  font-family: "Campton Bold",Impact,sans-serif;
+  background: rgb(029, 002, 053);
   line-height: 1.5em;
   font-weight: 300;
   font-size: 16px;
-  color: #666;
+  color: #000;
 }
 hr {
   margin-top: 20px;
@@ -19,7 +19,7 @@ span.time, span.categories {
   font-size: 11px;
 }
 h1, h2, h3 {
-  color: #696969;
+  color: rgb(228,224,238);
   font-weight: normal;
 }
 h1 {
@@ -31,11 +31,16 @@ h2, h3 {
 }
 a, a:link, a:active {
   text-decoration: none;
-  color: #e32b3a;
+  color: #4e2a84;
 }
 a:hover {
-  color: #B3B3B3;
-  text-decoration: underline;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited {
+  color: #4e2a84;
 }
 
 /* Layout */
@@ -85,16 +90,16 @@ footer {
 div.col-sm-3 {
   margin-top: 100px;
   font-size: 11px;
-  color: #666;
+  color: rgb(228,224,238);
 }
 div.col-sm-3 strong {
   font-size: 16px;
-  color: #4A4A4A;
+  color: rgb(228,224,238);
   font-weight: normal;
 }
 div.col-sm-3 div.profile-about {
   margin-top: 10px;
-  color: #8C8C8C;
+  color: rgb(228,224,238);
 }
 div.col-sm-3 img.profile-avatar {
   border-radius: 150px;
@@ -142,7 +147,7 @@ div.col-sm-3 img.profile-avatar {
 }
 .social li a {
   font-size: 16px;
-  color: #969394;
+  color: rgb(228,224,238);
 }
 .social li a:hover {
   color: #6D6D6D;
@@ -156,6 +161,13 @@ div.col-sm-3 img.profile-avatar {
 .post-content img,
 .content img {
   max-width: 100%
+}
+
+.container,
+.container h1,
+.container h2,
+.container h3 {
+  color: rgb(029,002,053) !important;
 }
 
 /* Responsive Conditional */
