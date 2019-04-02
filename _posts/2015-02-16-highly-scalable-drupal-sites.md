@@ -3,7 +3,7 @@ layout: post
 title: Drupal High Availability
 date: 2015-02-17 12:03:00
 categories: tech
-image: "/images/posts/6/bg.png"
+image: "posts/6/bg.png"
 category: blog
 published: true
 comments: true

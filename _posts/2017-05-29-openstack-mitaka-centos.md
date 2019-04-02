@@ -3,7 +3,7 @@ layout: post
 title: Setting Up Openstack Mitaka on CentOS
 date: 2017-05-29 22:00:00
 categories: cloud
-image: "/images/posts/8/bg.png"
+image: "posts/9/bg.png"
 category: blog
 published: true
 comments: true

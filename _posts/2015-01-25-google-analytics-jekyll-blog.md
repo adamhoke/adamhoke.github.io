@@ -3,7 +3,7 @@ layout: post
 title: Google Analytics on a Jekyll Blog
 date: 2015-01-26 17:30:00
 categories: tech
-image: "/images/posts/4/bg.png"
+image: "posts/4/bg.png"
 category: blog
 published: true
 comments: true
@@ -32,7 +32,7 @@ In my opinion, the best tool to use is Google Analytics.
 It's free and widely accepted as the de-facto way to prove traffic statistics about a site.
 Sign up at [http://www.google.com/analytics](http://www.google.com/analytics "Google Analytics") by using your google account to add your site information.
 After you sign up and are logged in, you'll be taken to the dashboard and focused on the page with your tracking code, that'll be added to Jekyll:
-![Google Analytics Screenshot](/images/posts/4/1.png "Google Analytics tracking Code")
+![Google Analytics Screenshot](/img/posts/4/1.png "Google Analytics tracking Code")
 
 **Adding GA to your Jekyll Blog**
 
@@ -41,7 +41,7 @@ Adding the GA tracking code to your Jekyll blog is simple.
 Copy the tracking javascript code in the "default" template under your '_posts' folder.
 This ensures the code will show up on every page.
 
-![Google Analytics Code Screenshot](/images/posts/4/2.png "Google Analytics Tracking Code")
+![Google Analytics Code Screenshot](/img/posts/4/2.png "Google Analytics Tracking Code")
 
 There also may be a delay between when you add the code and push to github and when the admin section of Google Analytics recognizes the tracking code has been added.
 The delay can be up to 24 hrs, so you may get a message on the tracking code section of the GA dashboard,

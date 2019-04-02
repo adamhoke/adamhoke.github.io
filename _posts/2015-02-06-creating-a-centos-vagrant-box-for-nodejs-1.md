@@ -3,7 +3,7 @@ layout: post
 title: Creating a CentOS Vagrant Box with a NodeJS Server
 date: 2015-02-06 17:30:00
 categories: tech
-image: "/images/posts/5/bg.png"
+image: "posts/5/bg.png"
 category: blog
 published: true
 comments: true
@@ -59,7 +59,7 @@ the next step is to create a new virtual machine with these settings:
 	* Audio
 	* Shared Folders
 
-![VirtualBox Screenshot](/images/posts/5/1.png "VirtualBox Vagrant settings")
+![VirtualBox Screenshot](/img/posts/5/1.png "VirtualBox Vagrant settings")
 
 
 **Adding and configuring the OS**
@@ -164,7 +164,7 @@ You'll be prompted for a password.
 Enter your password (vagrant),
 and you'll be shown a directory listing of vagrant's home directory:
 
-![Screenshot of vsftp on CentOS](/images/posts/5/2.png "vsftp running on CentOS")
+![Screenshot of vsftp on CentOS](/img/posts/5/2.png "vsftp running on CentOS")
 
 Installing Git and NodeJS are pretty straightforward:
 ```
@@ -220,7 +220,7 @@ vagrant ssh
 
 If the public keypair has been added correctly you should be automatically sshed into the running vagrant box as the vagrant user.
 
-![Vagrant SSH Screenshot](/images/posts/5/3.png "Vagrant SSH")
+![Vagrant SSH Screenshot](/img/posts/5/3.png "Vagrant SSH")
 
 You can exit and stop vagrant by running 'vagrant halt'.
 

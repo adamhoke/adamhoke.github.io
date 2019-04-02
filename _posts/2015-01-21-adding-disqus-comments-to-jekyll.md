@@ -3,7 +3,7 @@ layout: post
 title: Adding Disqus comments to your blog
 date: 2015-01-21 19:00:00
 categories: tech
-image: "/images/posts/2/bg.png"
+image: "posts/2/bg.png"
 category: blog
 published: true
 comments: true
@@ -28,7 +28,7 @@ After some quick research I decided to go with this solution because I could see
 has support documentation for jekyll integration,
 which meant integration would hopefully be quick and painless.
 
-![Disqus Screenshot](/images/posts/2/1.png "disqus.com")
+![Disqus Screenshot](/img/posts/2/1.png "disqus.com")
 
 The benefit I've found to using disqus is that it's simple,
 responsive, and require's very little code to run.
@@ -39,7 +39,7 @@ The first step to getting disqus up and running is heading over to disqus.com an
 After that head to [http://disqus.com/websites](http://disqus.com/websites "Disqus for Websites") and click "Get Started" and register your website.
 Fill out the information, then for implementation options choose "Universal Embed Code".
 
-![Universal Embed Code Screenshot](/images/posts/2/2.png "Adding Disqus Code to your Blog")
+![Universal Embed Code Screenshot](/img/posts/2/2.png "Adding Disqus Code to your Blog")
 
 The neccesary variables should already be present in your embed code if you're logged into Disqus.
 

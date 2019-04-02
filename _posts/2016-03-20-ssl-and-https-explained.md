@@ -3,7 +3,7 @@ layout: post
 title: HTTPS and SSL Certificates Explained
 date: 2016-03-19 22:00:00
 categories: hosting
-image: "/images/posts/8/bg.png"
+image: "posts/8/bg.png"
 category: blog
 published: true
 comments: true

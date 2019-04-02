@@ -4,7 +4,7 @@ title: Blogging with Jekyll and Github
 date: 2015-01-18 19:00:00
 categories: tech
 category: blog
-image: "/images/posts/1/bg.png"
+image: "posts/1/bg.png"
 published: true
 comments: true
 tags:
@@ -28,7 +28,7 @@ however Github has set up a domain ["github.io"](http://github.io "github.io") f
 You can have one blog per account, and one blog per project.
 We'll be using the account blog.
 
-![Github.io Screenshot](/images/posts/1/1.png "Github.io")
+![Github.io Screenshot](/img/posts/1/1.png "Github.io")
 
 The benefit to using github is the free hosting,
 and being hosted on github your blog will never go down unless github itself goes down,
@@ -46,7 +46,7 @@ Go to the themes page on github and [fork the repo](https://help.github.com/arti
 You'll want to name the repo yourusername.github.io.
 Make sure the default branch is Master.
 
-![Fork Repo Screenshot](/images/posts/1/2.png "Forking a Github Repo")
+![Fork Repo Screenshot](/img/posts/1/2.png "Forking a Github Repo")
 
 Master should be the default branch because you're creating an account blog.
 This is an important point other tutorialsI've seen on github blogging fail to mention.
@@ -80,7 +80,7 @@ Which essentially runs the 'jekyll serve' command but requiring all gems in the 
 'jekyll serve' will launch a Jekyll serve on port 4000 of the localhost,
 so open a browser and go to http://localhost:4000 and you should see your running Jekyll blog.
 
-![Jekyll Screenshot](/images/posts/1/3.png "Jekyll running on localhost")
+![Jekyll Screenshot](/img/posts/1/3.png "Jekyll running on localhost")
 
 Make sure you set the correct config options in the _config.yaml file.
 If your going to use a custom domain, which I did, set base url to nothing.
@@ -95,7 +95,7 @@ Here's an example, the metadata for this post:
 		title: Blogging with Jekyll and Github
 		date: 2014-01-12 20:00:00
 		categories: tech
-		featured_image: "/images/posts/1/bg.png"
+		featured_image: "/img/posts/1/bg.png"
 		published: true
 		---
 ```

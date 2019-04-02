@@ -3,7 +3,7 @@ layout: post
 title: Jekyll Sitemaps
 date: 2015-01-24 17:30:00
 categories: tech
-image: "/images/posts/3/bg.png"
+image: "posts/3/bg.png"
 category: blog
 published: true
 comments: true
@@ -31,7 +31,7 @@ You'll need a Google accont to do this.
 Next you'll add a site (which you'll have to verify).
 For my site, I added both the non-www and www versions.
 Once that's done, set the default site to your non-www version.
-![Google Webmasters Dashboard](/images/posts/3/1.png "Google Webmasters Dashboard")
+![Google Webmasters Dashboard](/img/posts/3/1.png "Google Webmasters Dashboard")
 On the left hand side you'll see a menu.
 Here you'll be able to click "Crawl",
 then click "Sitemap" and click the button in the upper red corner "Add/Test Sitemap"
@@ -55,7 +55,7 @@ gems: [jekyll-sitemap]
 (Note: I only have one gem in my gemfile, yours could look different)
 Now to test, run 'bundle exec jekyll serve' locally and you should see a generated sitemap.xml in your Jekyll '_sites' directory:
 
-![adamhoke.com sitemap.xml](/images/posts/3/2.png "Github.io generated sitemap.xml")
+![adamhoke.com sitemap.xml](/img/posts/3/2.png "Github.io generated sitemap.xml")
 Now push the code to github.
 Within a few minutes (up to 30), your sitemap should be automatically generated.
 
