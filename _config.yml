@@ -16,7 +16,7 @@ author-avatar: 09.jpg
 #-------------------------------
 # Contact links
 twitter:   https://twitter.com/adamhoke # Add your Facebook handle
-linkedin: https://www.linkedin.com/adamhoke # Add your Facebook handle
+linkedin: https://www.linkedin.com/in/adamhoke # Add your Facebook handle
 
 
 #-------------------------------
@@ -26,7 +26,7 @@ disqus-identifier: adamhoke # Add your shortname for Disqus Comment. For example
 
 #-------------------------------
 # Instagram Feed
-instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
+instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.
 
 
 #-------------------------------
